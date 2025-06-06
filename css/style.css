@@ -6,8 +6,10 @@ body {
 }
 
 header {
+    color: rgb(158, 98, 104);
     padding: 10px;
-    background-color: rgb(16, 255, 215);
+    background-color: rgba(21, 12, 64, 0.91);
+    font-weight: bold;
 }
 
 h1 {
@@ -16,16 +18,32 @@ h1 {
 }
 
 aside {
-    max-width: 100%;
-    background-color: rgb(2, 108, 108);
+    width: 100%;
+    background-color: rgba(9, 4, 76, 0.87);
     margin-bottom: 129px;
-    height: 23px;
+    padding: 10px 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-aside button{
-    background-color: none;
-    border: none;
-    cursor: pointer;
+.asideLinks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 10px;
+    margin-left: 10px;
 }
 
+aside a{
+    color: rgb(143, 109, 176);
+    text-decoration: none;
+    padding: 8px 12px;
+    background-color: rgba(9, 4, 76, 0.15);
+    border-radius: 20px;
+    transition: background-color 0.3s;
+    
+}
+
+aside a:hover{
+    background-color: rgba(7, 2, 74, 0.797);
+}
 
